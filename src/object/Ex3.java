@@ -6,7 +6,7 @@ package object;
 public class Ex3 {
 
 	public static void main(String[] args) {
-		
+
 		Student student1 = new Student(1001, "둘리");
 		Student student2 = new Student(1001, "둘리");
 		
@@ -26,12 +26,10 @@ public class Ex3 {
 		
 		//Q. 재정의함수를 주석처리해서 원형메소드로 비교하기 
 
-		
 	}
-
 }
 
-//학생 클래스
+// 학생 클래스
 class Student {
 	
 	int id; // 학번
@@ -55,19 +53,3 @@ class Student {
 	}	
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
